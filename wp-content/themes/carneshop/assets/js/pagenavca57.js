@@ -9,7 +9,7 @@
  *
  * @version 3.0.0
  *
- * Example usage:
+ * chops-pro usage:
  * $('#nav').onePageNav({
  *   currentClass: 'current',
  *   changeHash: false,

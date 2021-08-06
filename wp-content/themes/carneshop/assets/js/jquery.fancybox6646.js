@@ -262,7 +262,7 @@
         hash : null,
 
         // Customize or add new media types
-        // Example:
+        // chops-pro:
         /*
         media : {
             youtube : {
@@ -294,7 +294,7 @@
         //==========
 
         // See Documentation/API/Events for more information
-        // Example:
+        // chops-pro:
         /*
             afterShow: function( instance, current ) {
                  console.info( 'Clicked element:' );
@@ -668,7 +668,7 @@
 
                     obj.src = opts.src || $item.attr( 'href' );
 
-                    // Assume that simple syntax is used, for example:
+                    // Assume that simple syntax is used, for chops-pro:
                     //   `$.fancybox.open( $("#test"), {} );`
                     if ( !obj.type && !obj.src ) {
                         obj.type = 'inline';
@@ -677,7 +677,7 @@
 
                 } else {
 
-                    // Assume we have a simple html code, for example:
+                    // Assume we have a simple html code, for chops-pro:
                     //   $.fancybox.open( '<div><h1>Hi!</h1></div>' );
 
                     obj = {
@@ -762,7 +762,7 @@
                 }
 
                 // Check if url contains "filter" used to filter the content
-                // Example: "ajax.html #something"
+                // chops-pro: "ajax.html #something"
                 if ( type === 'ajax' ) {
                     srcParts = src.split(/\s+/, 2);
 
@@ -2759,7 +2759,7 @@
 
         // Get current instance and execute a command.
         //
-        // Examples of usage:
+        // chops-pros of usage:
         //
         //   $instance = $.fancybox.getInstance();
         //   $.fancybox.getInstance().jumpTo( 1 );
@@ -3058,7 +3058,7 @@
             index = items.index( $target );
 
             // Sometimes current item can not be found
-            // (for example, when slider clones items)
+            // (for chops-pro, when slider clones items)
             if ( index < 0 ) {
                 index = 0;
             }
@@ -3205,7 +3205,7 @@
 			url     : '//$1/p/$2/media/?size=l'
 		},
 
-		// Examples:
+		// chops-pros:
 		// http://maps.google.com/?ll=48.857995,2.294297&spn=0.007666,0.021136&t=m&z=16
 		// https://www.google.com/maps/@37.7852006,-122.4146355,14.65z
 		// https://www.google.com/maps/place/Googleplex/@37.4220041,-122.0833494,17z/data=!4m5!3m4!1s0x0:0x6c296c66619367e0!8m2!3d37.4219998!4d-122.0840572
@@ -3217,7 +3217,7 @@
 			}
 		},
 
-		// Examples:
+		// chops-pros:
 		// https://www.google.com/maps/search/Empire+State+Building/
 		// https://www.google.com/maps/search/?api=1&query=centurylink+field
 		// https://www.google.com/maps/search/?api=1&query=47.5951518,-122.3316393
@@ -4243,7 +4243,7 @@
 // SlideShow
 // Enables slideshow functionality
 //
-// Example of usage:
+// chops-pro of usage:
 // $.fancybox.getInstance().SlideShow.start()
 //
 // ==========================================================================

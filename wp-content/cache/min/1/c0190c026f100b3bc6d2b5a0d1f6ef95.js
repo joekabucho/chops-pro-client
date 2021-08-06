@@ -9,7 +9,7 @@ $(window).on('elementor/frontend/init',function(){elementorFrontend.hooks.addAct
 * Version 2.70.0-2014.11.23
 * Requires jQuery v1.7 or later
 *
-* Examples at: http://malsup.com/jquery/block/
+* chops-pros at: http://malsup.com/jquery/block/
 * Copyright (c) 2007-2013 M. Alsup
 * Dual licensed under the MIT and GPL licenses:
 * http://www.opensource.org/licenses/mit-license.php
